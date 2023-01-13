@@ -33,7 +33,7 @@ class StoreCustomerRequest extends FormRequest
             'state' => ['required'],
             'postalCode' => ['required'],
         ];
-    }
+    } 
 
     protected function prepareForValidation()
     {
